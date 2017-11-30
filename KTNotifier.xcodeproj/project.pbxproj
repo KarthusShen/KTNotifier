@@ -11,6 +11,7 @@
 		AAE44E791FA084E800810026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE44E781FA084E800810026 /* Assets.xcassets */; };
 		AAE44E7C1FA084E800810026 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAE44E7A1FA084E800810026 /* MainMenu.xib */; };
 		AAE44E7F1FA084E800810026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE44E7E1FA084E800810026 /* main.m */; };
+		AAE44E881FA086D700810026 /* KTNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE44E871FA086D700810026 /* KTNotifier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		AAE44E7D1FA084E800810026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE44E7E1FA084E800810026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAE44E801FA084E800810026 /* KTNotifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KTNotifier.entitlements; sourceTree = "<group>"; };
+		AAE44E861FA086D700810026 /* KTNotifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTNotifier.h; sourceTree = "<group>"; };
+		AAE44E871FA086D700810026 /* KTNotifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTNotifier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				AAE44E7D1FA084E800810026 /* Info.plist */,
 				AAE44E7E1FA084E800810026 /* main.m */,
 				AAE44E801FA084E800810026 /* KTNotifier.entitlements */,
+				AAE44E861FA086D700810026 /* KTNotifier.h */,
+				AAE44E871FA086D700810026 /* KTNotifier.m */,
 			);
 			path = KTNotifier;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			files = (
 				AAE44E7F1FA084E800810026 /* main.m in Sources */,
 				AAE44E771FA084E800810026 /* AppDelegate.m in Sources */,
+				AAE44E881FA086D700810026 /* KTNotifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

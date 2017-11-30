@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "KTNotifier.h"
 
 @interface AppDelegate ()
 
@@ -24,5 +25,22 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)ShowInDock:(id)sender
+{
+    static int i = 1;
+    NSString *strTip = [NSString stringWithFormat:@"%d",i];
+    [[KTNotifier sharedNotifier] showDockNotification:strTip];
+    i++;
+}
+
+- (IBAction)ShowInNotificationCenter:(id)sender
+{
+    static int i = 1;
+    NSString *strTip = [NSString stringWithFormat:@"%d",i];
+    [[KTNotifier sharedNotifier] showNotificationWithTitle:@"工作宝"
+                                              withSubTitle:@"王大锤"
+                                       withInformativeText:strTip];
+    i++;
+}
 
 @end
